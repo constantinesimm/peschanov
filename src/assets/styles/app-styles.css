@@ -1,0 +1,14 @@
+.tooltip-inner {
+    font-size: 1.15rem!important;
+}
+
+.notices.is-top >.toast {
+    margin-top: 35px!important;
+    border-radius: 15px;
+}
+
+.notices .toast .toast-text {
+    padding: 1rem!important;
+    font-size: 18px;
+
+}

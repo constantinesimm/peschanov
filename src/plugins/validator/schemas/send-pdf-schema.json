@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "recipientName": {
+      "title": "Recipient Name",
+      "type": "string",
+      "description": "Users first or full name without supporting unicode or emojis.",
+      "minLength": 4,
+      "maxLength": 20
+    },
+    "recipientMail": {
+      "title": "Recipient Email",
+      "description": "Users email address. Example: 'case@example.com'",
+      "type": "string",
+      "format": "email"
+    }
+  },
+  "required": ["recipientName", "recipientMail"]
+}
